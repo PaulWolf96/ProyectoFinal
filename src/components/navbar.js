@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NavScrollExample() {
+const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -49,4 +49,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavBar;
