@@ -68,9 +68,9 @@ const Contact = () => {
         <Accordion.Header>Preguntas Frecuentes</Accordion.Header>
         <Accordion.Body>
             <div>
-                <p>¿Como puedo publicar mis productos?</p>
-                <p>No me llegó mi producto ¿Que Hago?</p>
-                <p>¿Puedo devolver un producto?</p>
+                <p><a href="#">¿Como puedo publicar mis productos?</a></p>
+                <p><a href="#">No me llegó mi producto ¿Que Hago?</a></p>
+                <p><a href="#">¿Puedo devolver un producto?</a></p>
                 <p></p>
                 <p></p>
                 <p></p>
