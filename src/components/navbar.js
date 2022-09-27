@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../img/logo1.png';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -20,7 +21,7 @@ const NavBar = () => {
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Quienes Somos</Nav.Link>
-            <Nav.Link href="#">Contacto</Nav.Link>
+            <Nav.Link as={Link} to={"/contacto"}>Contacto</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

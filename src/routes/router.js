@@ -1,17 +1,20 @@
-import { Route, Router, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import Contact from "../components/homeContacto";
+import QuienesSomos from "../components/homeQuienesSomos";
+import Index from "../components/homeIndex";
 
 
 
-const appRoute = () => {
+const AppRoute = () => {
     return( 
         <Router>
             <Switch>
-                <Route exact path="/home" component={homeIndex} />
-                <Route exact path="/quienessomos" component={homeQuienesSomos} />
-                <Route exact path="/contacto" component={homeContacto} />
+                <Route exact path="/home" component={Index} />
+                <Route exact path="/quienessomos" component={QuienesSomos} />
+                <Route exact path="/contacto" component={Contact} />
             </Switch>
         </Router>
     )
 }
 
-export default appRoute;
+export default AppRoute;
