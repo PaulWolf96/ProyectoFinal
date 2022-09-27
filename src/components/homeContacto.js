@@ -19,7 +19,7 @@ const Contact = () => {
       <Accordion.Item eventKey="0">
         <Accordion.Header>Sugerencias</Accordion.Header>
         <Accordion.Body>
-        <Form.Control type="text" placeholder="Nombre" />
+        <Form.Control type="text" placeholder="Nombre y Apellido" />
         <br></br>
         <Form.Control type="email" placeholder="Email" />
         <br></br>
@@ -43,7 +43,7 @@ const Contact = () => {
       <Accordion.Item eventKey="1">
         <Accordion.Header>Reclamos</Accordion.Header>
         <Accordion.Body>
-        <Form.Control type="text" placeholder="Nombre" />
+        <Form.Control type="text" placeholder="Nombre y Apellido" />
         <br></br>
         <Form.Control type="email" placeholder="Email" />
         <br></br>

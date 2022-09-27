@@ -4,12 +4,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Logo from '../img/logo1.png';
 
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#"><img src={Logo} alt="" width="120px"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
