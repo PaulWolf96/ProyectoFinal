@@ -8,12 +8,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar';
+import Footer from './footer';
 
 const Contact = () => {
     return (
     <>
     <Navbar />
-    
+
     <Container fluid>
     <br></br>
     <h3>Dejanos tus sugerencias o reclamos aquí</h3>
@@ -89,6 +90,8 @@ const Contact = () => {
     <br></br>
     <br></br>
     <br></br>
+
+    <Footer />
     </>
     );
 }
