@@ -5,23 +5,27 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../img/logo1.png';
-import { Link } from 'react-router-dom';
+import './navbar.css';
+import Logo2 from '../img/modoNoche1.png';
 
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#"><img src={Logo} alt="" width="120px"></img></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="p-1" />
+        <a href="/home"><img src={Logo} alt="" width="100px"></img></a>
+        <a href=""><img src={Logo2} alt="" width="30px"></img></a>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Quienes Somos</Nav.Link>
-            <Nav.Link as={Link} to={"/contacto"}>Contacto</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/quienessomos">Quienes Somos</Nav.Link>
+            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <hr></hr>
+            <Nav.Link href="/contacto"><i class="fa-solid fa-user"></i>  Iniciar Sesion</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
