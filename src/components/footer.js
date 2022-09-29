@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function AutoLayoutExample() {
+const Footer = () => {
   return (
     <Container>
       <Row>
@@ -24,4 +24,4 @@ function AutoLayoutExample() {
   );
 }
 
-export default AutoLayoutExample;
+export default Footer;
