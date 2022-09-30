@@ -1,5 +1,5 @@
 import React from 'react';
-import 
+
 const Descripcion = ({Integrante}) => {
     return (
         <div className='col-11 col-md-6'>
