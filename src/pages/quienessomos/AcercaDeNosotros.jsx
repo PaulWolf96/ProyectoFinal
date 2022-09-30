@@ -1,9 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import './AcercaDeNosotros.css';
-import Descripcion from "./components/Descripcion";
-import Imagen from "./components/Imagen";
-  
+import Descripcion from "../../components/Descripcion";
+import Imagen from "../../components/Imagen";
+import NavBar from "../../components/navbar";
+import Footer from "../../components/footer";
 
+  
 const AcercaDeNosotros= () => {
   const integrantes = [
      { nombre: "Facundo Jerez",
@@ -26,6 +28,8 @@ const AcercaDeNosotros= () => {
     }
   ]
     return (
+      <>
+      <NavBar/>
     <section className="container ">
     <article className="d-flex flex-wrap align-items-center bg-grisOscuro justify-content-around py-2"> 
       <Descripcion Integrante ={integrantes[0]}>
@@ -47,7 +51,10 @@ const AcercaDeNosotros= () => {
     </article>
     
     </section>
+    <Footer/>
+    </>
   );
 }
+
 
 export default AcercaDeNosotros;
