@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="container d-flex justify-content-center">
             <p className="copyright">
               Portions of this content are ©1998-2022 by individual
-              wikipedia.com contributors. Content available under a 
+              contributors. Content available under a 
               <a href=""> Creative Commons license</a>.
             </p>
           </div>
