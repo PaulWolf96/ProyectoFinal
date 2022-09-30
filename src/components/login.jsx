@@ -1,31 +1,31 @@
+import Footer from './footer';
 import './login.css';
+import NavBar from './navbar';
 
 const Login = () => {
     return (
+      <>
+      <NavBar />
+      <br></br>
+      <form class="container">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  <br></br>
+  <br></br>
+  <a href="" class="a-user">¿Olvidaste tu contraseña?</a><span> /</span>
+          <a href="/register" class="a-user">Registrarse</a>
+</form>
+<br></br>
+      <Footer/>
+      </>
       
-      <div class="div-usuario">
-        <div class="div-usuario-img">
-          <img src="image1.png" alt="" class="img-user"></img>
-        </div>
-        <div class="div-usuario-user">
-          <div class="form-user" id="">
-            <h2 class="h2-user">Iniciar Sesión</h2>
-            <label for="user" class="label-user">Escriba su nombre de usuario</label><br></br>
-            <input type="text" class="input-user" id="user" />
-            <br></br>
-            <label for="pass" class="label-user">Escriba su contraseña</label><br></br>
-            <input type="password" class="input-user" id="pass" />
-            <div id="divForm"></div>
-            <input type="checkbox" id="check"/>
-            <label for="check">Recordarme</label>
-            <br></br>
-            <button type="submit" id="button">Ingresar</button>
-            <br></br>
-            <a href="" class="a-user">¿Olvidaste tu contraseña?</a><span> /</span>
-            <a href="registro.html" class="a-user">Registrarse</a>
-          </div> 
-        </div>
-      </div>
     );
 }
 
