@@ -3,6 +3,10 @@ import NavBar from "./navbar";
 
 
 const Register = () => {
+
+
+
+    
     return (
         <>
         <NavBar/>
