@@ -13,7 +13,7 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" className="p-1" />
-        <a href="/home"><img src={Logo} alt="" width="100px"></img></a>
+        <a href="/"><img src={Logo} alt="" width="100px"></img></a>
         <a href=""><img src={Logo2} alt="" width="30px" className="imgModoNoche"></img></a>
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,7 +21,7 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/quienessomos">Quienes Somos</Nav.Link>
             <Nav.Link href="/contacto">Contacto</Nav.Link>
             <hr></hr>
