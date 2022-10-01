@@ -10,7 +10,7 @@ const AppRoute = () => {
     return( 
         <Router>
             <Switch>
-                <Route exact path="/home" component={Index} />
+                <Route exact path="/" component={Index} />
                 <Route exact path="/quienessomos" component={QuienesSomos} />
                 <Route exact path="/contacto" component={Contact} />
                 <Route exact path="/acercadenosotros" component={AcercaDeNosotros} />
