@@ -1,14 +1,12 @@
 import { Button } from "react-bootstrap";
 import { Braces } from "react-bootstrap-icons";
 import React from "react";
-import NavBar from "./navbar";
-import Footer from "./footer";
+
 
 
 const HomeQuienesSomos = () => {
     return (
-      <>
-      <NavBar/>
+      
     <section> 
       
     <div className= "text-center mt-3 pb-1">
@@ -55,8 +53,7 @@ const HomeQuienesSomos = () => {
     </div>
     
     </section>
-    <Footer/>
-    </>
+  
 
  );
 };
