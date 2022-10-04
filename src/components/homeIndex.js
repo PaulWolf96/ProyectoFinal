@@ -1,12 +1,10 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import Footer from './footer';
-import NavBar from './navbar';
+
 
 const Home = () => {
     return (
         <>
-        <NavBar/>
         <Carousel fade>
             <Carousel.Item>
                 <img
@@ -55,7 +53,6 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        <Footer/> 
         </>
     );
 }

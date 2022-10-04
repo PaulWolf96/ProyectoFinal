@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Contact from "../components/homeContacto";
+import { BrowserRouter as Router, Route, Switch, } from "react-router-dom"
+import Contact from "../pages/contacto/contacto";
 import QuienesSomos from "../pages/quienessomos/QuienesSomos";
-import Index from "../components/homeIndex";
+import Index from "../pages/index/index";
 import Login from "../components/login";
 import Register from "../components/register";
 import AcercaDeNosotros from "../pages/quienessomos/AcercaDeNosotros";
