@@ -7,27 +7,21 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './navbar';
-import Footer from './footer';
+
 
 const Contact = () => {
     return (
-    <>
-    <Navbar />
 
-    <Container fluid>
-    <br></br>
-    <h3>Dejanos tus sugerencias o reclamos aquí</h3>
-    <br></br>
-        
+    <Container className='flex-grow-1 my-2'>
+    
+    <h3 className='display-4 tituloQuienesSomos fw-bold text-center mb-3 pb-3'> Sugerencias o Reclamos </h3>
+    
       <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Sugerencias</Accordion.Header>
         <Accordion.Body>
         <Form.Control type="text" placeholder="Nombre y Apellido" />
-        <br></br>
         <Form.Control type="email" placeholder="Email" />
-        <br></br>
         <FloatingLabel controlId="floatingTextarea1" label="Comentario">
         <Form.Control
           as="textarea"
@@ -35,7 +29,6 @@ const Contact = () => {
           style={{ height: '100px' }}
         />
       </FloatingLabel>
-      <br></br>
       <Row>
         <Col xs={{ span: 9, offset: 9 }} sm={{ span: 0, offset: 0}}>
             <Button variant="primary" type="submit" size="sm">
@@ -49,9 +42,8 @@ const Contact = () => {
         <Accordion.Header>Reclamos</Accordion.Header>
         <Accordion.Body>
         <Form.Control type="text" placeholder="Nombre y Apellido" />
-        <br></br>
+
         <Form.Control type="email" placeholder="Email" />
-        <br></br>
         <FloatingLabel controlId="floatingTextarea2" label="Comentario">
         <Form.Control
           as="textarea"
@@ -59,7 +51,6 @@ const Contact = () => {
           style={{ height: '100px' }}
         />
       </FloatingLabel>
-      <br></br>
       <Row>
         <Col xs={{ span: 9, offset: 9 }} sm={{ span: 0, offset: 0}}>
             <Button variant="primary" type="submit" size="sm">
@@ -76,22 +67,16 @@ const Contact = () => {
                 <p><a href="#">¿Como puedo publicar mis productos?</a></p>
                 <p><a href="#">No me llegó mi producto ¿Que Hago?</a></p>
                 <p><a href="#">¿Puedo devolver un producto?</a></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+              
             </div>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+   
     </Container>
-    <br></br>
-    <br></br>
+    
 
-    <Footer />
-    </>
     );
-}
+    }
 
 export default Contact;

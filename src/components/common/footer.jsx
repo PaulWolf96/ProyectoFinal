@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../img/logo1.png';
+import Logo from '../../img/logo1.png';
 import './footer.css';
-import IgLogo from '../img/instagramLogo.png';
-import FaceLogo from '../img/faceLogo.png';
-import LinkLogo from '../img/linkedinLogo.png';
+import IgLogo from '../../img/instagramLogo.png';
+import FaceLogo from '../../img/faceLogo.png';
+import LinkLogo from '../../img/linkedinLogo.png';
 import Row from 'react-bootstrap/Row';
 
 
@@ -24,8 +24,8 @@ const Footer = () => {
           </Col>
           <Col>
             <Nav defaultActiveKey="/home" className="flex-column">
-            <Nav.Link className="linksFooter" href="/home">Home</Nav.Link>
-            <Nav.Link className="linksFooter" href="/quienessomos">Quienes Somos</Nav.Link>
+            <Nav.Link className="linksFooter" href="/">Home</Nav.Link>
+            <Nav.Link className="linksFooter" href="/QuienesSomos">Quienes Somos</Nav.Link>
             <Nav.Link className="linksFooter" href="/contacto">Contacto</Nav.Link>
             </Nav>
           </Col>

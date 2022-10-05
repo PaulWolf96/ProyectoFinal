@@ -1,21 +1,11 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import Footer from './footer';
-import NavBar from './navbar';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
 
-function Home() {
+
+function CarouselIndex() {
     return (
         <>
-            <NavBar />
-
-            <br/>
-            <br/>
-
             <header className="header">
                 <h1>Mini Market</h1>
             </header>
@@ -23,10 +13,7 @@ function Home() {
                 <p>El mejor lugar para publicar y comprar tecnología en tu ciudad</p>
             </div>
 
-            <br/>
-            <br/>
-
-            <Carousel fade>
+        <Carousel fade>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -70,44 +57,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-
-            <br/>
-            <br/>
-
-            <Row xs={1} md={2} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                     lead-in to additional content. This content is a little bit
-                                    longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                 ))}
-            </Row>
-
-            <br/>
-            <br/>
-
-            <Card className="text-center">
-                <Card.Header>¡Únete!</Card.Header>
-                <Card.Body>
-                    <Card.Title>Suscríbete y entérate de las últimas novedades.</Card.Title>
-                    <Card.Text>
-                        With supporting text below as a natural lead-in to additional content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-                <Card.Footer className="text-muted">2 days ago</Card.Footer>
-            </Card>
-
-            <Footer />
+        
         </>
 
 
@@ -115,4 +65,4 @@ function Home() {
 }
 
 
-export default Home;
+export default CarouselIndex;

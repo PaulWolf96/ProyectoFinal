@@ -4,9 +4,9 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../img/logo1.png';
+import Logo from '../../img/logo1.png';
 import './navbar.css';
-import Logo2 from '../img/modoNoche1.png';
+import Logo2 from '../../img/modoNoche1.png';
 
 const NavBar = () => {
   return (
@@ -24,7 +24,6 @@ const NavBar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/quienessomos">Quienes Somos</Nav.Link>
             <Nav.Link href="/contacto">Contacto</Nav.Link>
-            <hr></hr>
             <Nav.Link href="/login"><i class="fa-solid fa-user"></i>  Iniciar Sesion</Nav.Link>
             
           </Nav>
