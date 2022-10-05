@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './AcercaDeNosotros.css';
 import Descripcion from "../../components/Descripcion";
 import Imagen from "../../components/Imagen";
-import NavBar from "../../components/navbar";
-import Footer from "../../components/footer";
+import NavBar from "../../components/common/navbar";
+import Footer from "../../components/common/footer";
 import FotoFacundo from "../../img/Foto-Facundo.jpg";
 import FotoPablo from "../../img/Foto-Pablo.jpg";
 

@@ -7,12 +7,10 @@ import React from "react";
 const HomeQuienesSomos = () => {
     return (
       
-    <Container className="my-5" > 
+    <Container className="my-2" > 
       
-    <div className= "text-center pb-1">
-    <h1 className="display-4 tituloQuienesSomos fw-bold"> Quienes somos </h1>
+    <h1 className="display-4 tituloQuienesSomos fw-bold text-center pb-1"> Quienes somos </h1>
 
-    </div>
      <article className="mx-auto my-3 border border-1 border-dark p-3 fs-6 ">
       <p className="lead">
         Somos una empresa orientada a la compra y venta de insumos informaticos

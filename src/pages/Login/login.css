@@ -1,3 +1,9 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .div-usuario {
     display: flex;
     justify-content: center;
@@ -59,3 +65,4 @@
         padding-left: 4.8rem;
     }
   }
+

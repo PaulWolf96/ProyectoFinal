@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from '../img/logo1.png';
+import Logo from '../../img/logo1.png';
 import './footer.css';
-import IgLogo from '../img/instagramLogo.png';
-import FaceLogo from '../img/faceLogo.png';
-import LinkLogo from '../img/linkedinLogo.png';
+import IgLogo from '../../img/instagramLogo.png';
+import FaceLogo from '../../img/faceLogo.png';
+import LinkLogo from '../../img/linkedinLogo.png';
 import Row from 'react-bootstrap/Row';
 
 

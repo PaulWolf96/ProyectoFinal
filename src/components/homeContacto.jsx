@@ -21,9 +21,7 @@ const Contact = () => {
         <Accordion.Header>Sugerencias</Accordion.Header>
         <Accordion.Body>
         <Form.Control type="text" placeholder="Nombre y Apellido" />
-        <br></br>
         <Form.Control type="email" placeholder="Email" />
-        <br></br>
         <FloatingLabel controlId="floatingTextarea1" label="Comentario">
         <Form.Control
           as="textarea"
@@ -31,7 +29,6 @@ const Contact = () => {
           style={{ height: '100px' }}
         />
       </FloatingLabel>
-      <br></br>
       <Row>
         <Col xs={{ span: 9, offset: 9 }} sm={{ span: 0, offset: 0}}>
             <Button variant="primary" type="submit" size="sm">
@@ -45,9 +42,8 @@ const Contact = () => {
         <Accordion.Header>Reclamos</Accordion.Header>
         <Accordion.Body>
         <Form.Control type="text" placeholder="Nombre y Apellido" />
-        <br></br>
+
         <Form.Control type="email" placeholder="Email" />
-        <br></br>
         <FloatingLabel controlId="floatingTextarea2" label="Comentario">
         <Form.Control
           as="textarea"
@@ -55,7 +51,6 @@ const Contact = () => {
           style={{ height: '100px' }}
         />
       </FloatingLabel>
-      <br></br>
       <Row>
         <Col xs={{ span: 9, offset: 9 }} sm={{ span: 0, offset: 0}}>
             <Button variant="primary" type="submit" size="sm">
@@ -72,11 +67,7 @@ const Contact = () => {
                 <p><a href="#">¿Como puedo publicar mis productos?</a></p>
                 <p><a href="#">No me llegó mi producto ¿Que Hago?</a></p>
                 <p><a href="#">¿Puedo devolver un producto?</a></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+              
             </div>
         </Accordion.Body>
       </Accordion.Item>

@@ -1,14 +1,17 @@
 import React from 'react';
-import Navbar from '../../components/navbar';
-import Footer from '../../components/footer';
-import Home from '../../components/homeIndex';
+import Navbar from '../../components/common/navbar';
+import Footer from '../../components/common/footer';
+import CarouselIndex from '../../components/Carousel';
+import CardProductos from '../../components/CardProductos';
+import "./index.css"
 
 
 const Index = () => {
     return (
      <>
       <Navbar/>
-      <Home/>
+      <CarouselIndex/>
+      <CardProductos/>
       <Footer/>
      </>
     )
