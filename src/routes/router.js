@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Contact from "../components/homeContacto";
-import QuienesSomos from "../components/HomeQuienesSomos";
-import Index from "../components/homeIndex";
-import Login from "../components/login";
-import Register from "../components/register";
+import { BrowserRouter as Router, Route, Switch, } from "react-router-dom"
+import Contact from "../pages/contacto/contacto";
+import QuienesSomos from "../pages/quienessomos/QuienesSomos";
+import Index from "../pages/index/index";
+import Login from "../pages/Login/Login";
+import Register from "../pages/register/Register";
 import AcercaDeNosotros from "../pages/quienessomos/AcercaDeNosotros";
 
 

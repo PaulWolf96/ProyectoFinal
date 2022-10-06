@@ -1,20 +1,16 @@
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import { Braces } from "react-bootstrap-icons";
 import React from "react";
-import NavBar from "./navbar";
-import Footer from "./footer";
+
 
 
 const HomeQuienesSomos = () => {
     return (
-      <>
-      <NavBar/>
-    <section> 
       
-    <div className= "text-center mt-3 pb-1">
-    <h1 className="display-4 tituloQuienesSomos fw-bold"> Quienes somos </h1>
+    <Container className="my-2" > 
+      
+    <h1 className="display-4 tituloQuienesSomos fw-bold text-center pb-1"> Quienes somos </h1>
 
-    </div>
      <article className="mx-auto my-3 border border-1 border-dark p-3 fs-6 ">
       <p className="lead">
         Somos una empresa orientada a la compra y venta de insumos informaticos
@@ -48,15 +44,14 @@ const HomeQuienesSomos = () => {
         en cada paso que damos. */}
       </p>
     </article>
-    <div className="text-center ">
-        <Button variant="info" className=" text-white fs-4">
+    <div className="text-center mt-5 ">
+        <a href="./AcercaDeNosotros"><Button variant="info" className=" text-white fs-4">
         Conoce a nuestros desarrolladores <Braces/>
-        </Button>
+        </Button></a>
     </div>
     
-    </section>
-    <Footer/>
-    </>
+    </Container>
+  
 
  );
 };

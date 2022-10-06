@@ -1,6 +1,10 @@
 import React from 'react';
 import { Instagram, Github, Whatsapp } from 'react-bootstrap-icons';
 
+
+
+
+
 const Imagen = ({Foto}) => {
     return (
     <div className='col-11 col-md-4 border border-2 px-0 rounded rounded-2 mt-3 mt-md-0'>
