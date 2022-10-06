@@ -23,8 +23,8 @@ const Footer = () => {
           </div>
           </Col>
           <Col>
-            <Nav defaultActiveKey="/home" className="flex-column">
-            <Nav.Link className="linksFooter" href="/home">Home</Nav.Link>
+            <Nav defaultActiveKey="/" className="flex-column">
+            <Nav.Link className="linksFooter" href="/">Home</Nav.Link>
             <Nav.Link className="linksFooter" href="/quienessomos">Quienes Somos</Nav.Link>
             <Nav.Link className="linksFooter" href="/contacto">Contacto</Nav.Link>
             </Nav>

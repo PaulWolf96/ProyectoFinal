@@ -4,9 +4,13 @@ import NavBar from "./navbar";
 
 const Register = () => {
 
-
-
-    
+    /*
+    const [studentFormData, setStudentFormData] = useState({
+    identification: "",
+    firstname: "",
+    lastname: "",
+  });
+    */
     return (
         <>
         <NavBar/>
