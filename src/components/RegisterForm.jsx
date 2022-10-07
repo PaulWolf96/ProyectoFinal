@@ -17,15 +17,15 @@ const RegisterForm = () => {
             
                 <Form.Group class="mb-3">
                     <Form.Label for="exampleInputtext1" >Nombre Completo</Form.Label>
-                    <Form.Control type="text"  id="input1"></Form.Control>
+                    <Form.Control type="text"  id="inputName"></Form.Control>
                 </Form.Group>
-                <Form.Group class="mb-3">
-                    <Form.Label for="exampleInputNumber1">Edad</Form.Label>
-                    <Form.Control type="number"  id="input2"></Form.Control>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label for="exampleInputPassword1">Contraseña</Form.Label>
+                    <Form.Control type="password" id="inputPassword"></Form.Control>
                 </Form.Group>
                 <Form.Group class="mb-3">
                     <Form.Label for="exampleInputEmail1" >Email</Form.Label>
-                    <Form.Control type="email"  id="inputEmail" aria-describedby="emailHelp"></Form.Control>
+                    <Form.Control type="email"  id="inputEmail"></Form.Control>
                     <Form.Text> Nunca compartiremos su correo electrónico con alguien mas.</Form.Text>
                 </Form.Group>
                 <Button type="submit" variant="info" className="text-white" size="lg"  >Enviar</Button>
