@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch, } from "react-router-dom"
 import Contact from "../pages/contacto/contacto";
-import QuienesSomos from "../pages/quienessomos/QuienesSomos";
+import QuienesSomos from "../pages/quienessomos/quienesSomos";
 import Index from "../pages/index/index";
 import Login from "../pages/Login/Login";
 import Register from "../pages/register/Register";
