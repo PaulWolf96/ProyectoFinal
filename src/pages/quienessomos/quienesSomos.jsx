@@ -12,7 +12,6 @@ const QuienesSomos = () => {
       <Navbar/>
       <HomeQuienesSomos/>
       <Footer/>
-
      </>
     )
 }
