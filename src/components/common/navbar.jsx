@@ -14,7 +14,7 @@ const NavBar = () => {
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" className="p-1" />
         <a href="/"><img src={Logo} alt="" width="100px"></img></a>
-        
+        <a href=""><img src={Logo2} alt="" width="30px" className="imgModoNoche"></img></a>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
@@ -37,7 +37,6 @@ const NavBar = () => {
             <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
-        <a href=""><img src={Logo2} alt="" width="30px" className="imgModoNoche"></img></a>
       </Container>
     </Navbar>
   );
